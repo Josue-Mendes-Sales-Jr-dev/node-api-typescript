@@ -1,10 +1,15 @@
-import express from 'express'
+/* eslint-disable linebreak-style */
+import express from 'express';
 
 
 const server= express();
 
-server.get("/",(req, res)=>{
-    return res.send('olá mundo')
-})
+interface Teste {
+    
+}
 
-export{server};
+server.get('/',(req, res)=>{
+  return res.send('olá mundo');
+});
+
+export {server};
